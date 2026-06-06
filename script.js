@@ -34,5 +34,5 @@ function validarFormulario() {
     }
     
     alert("Destinatario agregado con éxito");
-    return true;
+    return true;    
 }
