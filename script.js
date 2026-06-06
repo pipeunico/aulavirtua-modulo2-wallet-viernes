@@ -4,7 +4,7 @@ function validarFormulario() {
     let email = document.getElementById("email").value;
     let telefono = document.getElementById("telefono").value;
     
-    if(nombre === "") {
+    if(nombre === "" & nombre.length < 2){
         alert("Debes ingresar el nombre completo");
         return false;
     }
